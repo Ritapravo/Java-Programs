@@ -1,4 +1,4 @@
-// Few array functions in java program
+//Few array functions in java program
 import java.util.Scanner;
 import java.lang.Math;
 
