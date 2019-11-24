@@ -1,7 +1,7 @@
 //Java program to reverse every word in a string
 import java.util.Scanner;
 
-public class Practice{
+public class ReverseString{
     public static void reverse(String str) {
         String[] words = str.split(" ");
         String revstr = "";
