@@ -15,11 +15,17 @@ public class Inheritance{
         subOb.showSuper_m(); //prints m value of its superclass
         subOb.show_m();//prints m value of its own
 
+        //Dynamic binding/Run time polymorphism 
+        System.out.println("\nDynamic binding/run-time polymorphism implementation");
+        A d_poly = new B();
+        d_poly.sum();
+
         //implementing abstract class
         System.out.println("\nAbstract class implementation");
         D d = new D();
         d.m1();
         d.m2();
+
     }
 }
 class A{
